@@ -1,0 +1,13 @@
+# main links
+main:
+  - title: "About"
+    url: /
+  - title: "Education"
+    url: /education/
+  - title: "Research"
+    url: /research/
+
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
