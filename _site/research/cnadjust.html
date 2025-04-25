@@ -10,8 +10,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>pgxRpi: an R/Bioconductor package for Progenetix Beacon v2 API - Hangjia Zhao</title>
-<meta name="description" content="an R package to provide a seamless way for retrieving genomic data from Progenetix database—an open resource dedicated to curated oncogenomic profiles">
+<!-- begin _includes/seo.html --><title>CNAdjust: Enhancing CNA Calling Accuracy through Systematic Baseline Adjustment - Hangjia Zhao</title>
+<meta name="description" content="a Nextflow pipeline for adjusting baselines in CNV segment profiles to improve CNA calling accuracy">
 
 
   <meta name="author" content="Hangjia Zhao">
@@ -23,11 +23,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Hangjia Zhao">
-<meta property="og:title" content="pgxRpi: an R/Bioconductor package for Progenetix Beacon v2 API">
-<meta property="og:url" content="http://localhost:4000/research/pgxrpi">
+<meta property="og:title" content="CNAdjust: Enhancing CNA Calling Accuracy through Systematic Baseline Adjustment">
+<meta property="og:url" content="http://localhost:4000/research/cnadjust">
 
 
-  <meta property="og:description" content="an R package to provide a seamless way for retrieving genomic data from Progenetix database—an open resource dedicated to curated oncogenomic profiles">
+  <meta property="og:description" content="a Nextflow pipeline for adjusting baselines in CNV segment profiles to improve CNA calling accuracy">
 
 
 
@@ -46,7 +46,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/research/pgxrpi">
+<link rel="canonical" href="http://localhost:4000/research/cnadjust">
 
 
 
@@ -147,8 +147,8 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="pgxRpi: an R/Bioconductor package for Progenetix Beacon v2 API">
-    <meta itemprop="description" content="an R package to provide a seamless way for retrieving genomic data from Progenetix database—an open resource dedicated to curated oncogenomic profiles">
+    <meta itemprop="headline" content="CNAdjust: Enhancing CNA Calling Accuracy through Systematic Baseline Adjustment">
+    <meta itemprop="description" content="a Nextflow pipeline for adjusting baselines in CNV segment profiles to improve CNA calling accuracy">
     <meta itemprop="datePublished" content="2025-04-25T10:13:51-04:00">
     
 
@@ -156,7 +156,7 @@
       
         <header>
           <h1 id="page-title" class="page__title" itemprop="headline">
-            <a href="http://localhost:4000/research/pgxrpi" itemprop="url">pgxRpi: an R/Bioconductor package for Progenetix Beacon v2 API
+            <a href="http://localhost:4000/research/cnadjust" itemprop="url">CNAdjust: Enhancing CNA Calling Accuracy through Systematic Baseline Adjustment
 </a>
           </h1>
           
@@ -168,13 +168,15 @@
       <section class="page__content" itemprop="text">
         
 
-        <p>It is an open-source R/Bioconductor package that provides an R interface to the <a href="https://progenetix.org/">Progenetix</a> Beacon v2 REST API, facilitating efficient data querying. In addition to querying capabilities, pgxRpi includes functions for data visualization and analysis. By leveraging the <a href="https://docs.genomebeacons.org/">Beacon v2 standard</a>, pgxRpi extends its utility to querying multiple Beacon v2 REST APIs from various resources, thereby broadening its applicability.</p>
+        <p>It is a modular pipeline designed to improve the accuracy of copy number alteration (CNA) calling by systematically detecting and correcting baseline shifts in CNV segment data.</p>
+
+<p>The method identifies likely misassigned baselines by evaluating signal characteristics indicative of calling artifacts. A Bayesian framework is then applied to recalibrate these baselines, leveraging cohort-specific CNA patterns and intra-study sample comparisons. This approach ensures that the adjusted CNA profiles are more consistent with underlying biological structures and study-specific characteristics.</p>
 
 
         
         
         
-          <p style="font-size: smaller">DOI: <a href="https://doi.org/10.1101/2025.03.20.644282">https://doi.org/10.1101/2025.03.20.644282</a> | <a href="https://github.com/progenetix/pgxRpi">Source code</a></p>
+          <p style="font-size: smaller"><a href="https://github.com/baudisgroup/CNAdjust">Source code</a></p>
         
       </section>
 
@@ -196,11 +198,11 @@
       
   <nav class="pagination">
     
+      <a href="#" class="pagination--pager disabled">Previous</a>
+    
+    
       <a href="/research/labelseg" class="pagination--pager" title="labelSeg: segment annotation for tumor copy number alteration profiles
-">Previous</a>
-    
-    
-      <a href="#" class="pagination--pager disabled">Next</a>
+">Next</a>
     
   </nav>
 

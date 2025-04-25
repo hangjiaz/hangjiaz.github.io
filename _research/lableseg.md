@@ -1,6 +1,7 @@
 ---
 title: "labelSeg: segment annotation for tumor copy number alteration profiles"
 collection: research
+order: 1
 permalink: /research/labelseg
 codeurl: https://github.com/baudisgroup/labelSeg
 doi: https://doi.org/10.1093/bib/bbad541
